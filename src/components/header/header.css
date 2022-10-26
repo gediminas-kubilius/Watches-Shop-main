@@ -1,0 +1,147 @@
+.header {
+  @apply flex
+  items-center
+  justify-between
+  w-full
+  h-24
+  bg-[#f9f9f9]
+  px-12
+  py-4
+  absolute
+  top-0
+  z-[55];
+}
+
+.logo {
+  @apply mr-8
+  text-5xl
+  font-bold;
+}
+
+.navigation-menu-main {
+  @apply pl-0
+  pr-8
+  grow;
+}
+
+.navigation-menu-main li {
+  @apply inline-block
+  cursor-pointer
+  hover:bg-gray-100;
+}
+
+.navigation-menu-main li a {
+  @apply px-6
+  py-6
+  hover:text-gray-600;
+}
+
+.navigation-menu {
+  @apply flex
+  items-center
+  justify-end
+  cursor-pointer
+  p-0
+  m-0
+  text-right;
+}
+
+.navigation-menu-item {
+  @apply inline-block
+  cursor-pointer
+  list-none
+  p-0
+  m-0;
+}
+
+.cart-num {
+  @apply w-4
+  h-4
+  p-2.5
+  mb-8
+  text-sm
+  font-semibold
+  bg-[rgba(247,45,45,.986)]
+  text-[#fff]
+  border-2
+  border-red-500
+  rounded-full
+  flex
+  items-center
+  justify-center;
+}
+
+.bag {
+  @apply text-2xl 
+  ml-4 
+  mb-1
+  flex;
+}
+
+.nav-item {
+  @apply relative
+  mr-4
+  flex
+  items-center
+  justify-center;
+}
+
+.sticky_header {
+  @apply w-full
+  h-20
+  leading-10
+  fixed
+  top-0
+  left-0
+  z-50
+  bg-[#fff];
+}
+
+.profile img {
+  @apply w-14
+  h-14
+  cursor-pointer
+  rounded-full;
+}
+
+.profile {
+  @apply relative
+  z-[9];
+}
+
+.profile .profile-actions {
+  @apply absolute
+  top-[98%]
+  right-2
+  w-32
+  z-[10]
+  p-3
+  flex
+  items-center
+  flex-col
+  bg-stone-100
+  hidden
+  cursor-pointer;
+}
+
+.user-nav {
+  @apply flex
+  justify-between
+  items-center
+  flex-col
+  text-sm
+  text-gray-600
+  font-semibold;
+}
+
+.user-nav div {
+  @apply flex
+  justify-between
+  w-32
+  p-2
+  hover:bg-gray-200;
+}
+
+.show-profileActions {
+  @apply block !important;
+}
