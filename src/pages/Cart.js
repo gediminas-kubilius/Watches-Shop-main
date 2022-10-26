@@ -24,7 +24,7 @@ const Cart = () => {
                   <th>Image</th>
                   <th>Title</th>
                   <th>Price</th>
-                  <th>Qty</th>
+                  <th>Quantity</th>
                   <th>Delete</th>
                 </tr>
               </thead>
@@ -39,11 +39,11 @@ const Cart = () => {
 
         <div className="checkout-box">
           <div className="section-a">
-            <h6>SubTotal :</h6>
+            <h6>TOTAL :</h6>
             <span>${totalAmount}</span>
           </div>
           <div className="section-b">
-            <p>taxes and shipping will calculate in checkout</p>
+            <p>Taxes and shipping will calculate in checkout.</p>
           </div>
           <div className="section-c">
             <div>
@@ -77,7 +77,7 @@ const ReturnCartItem = ({ item }) => {
       </td>
       <td>{item.productName}</td>
       <td>${item.price}</td>
-      <td>{item.quantity}px</td>
+      <td>{item.quantity} Item</td>
       <td>
         <span onClick={deleteProduct}>
           <i class="bi bi-trash cursor-pointer"></i>

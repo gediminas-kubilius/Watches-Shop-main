@@ -13,8 +13,8 @@ const Footer = () => {
         </strong>
       </div>
       <div class="footer-col-2">
-        <i class="bi bi-watch text-5xl"></i>
-        <h5>©&nbsp;2022</h5>
+        <i class="bi bi-smartwatch text-5xl text-danger"></i>
+        <h5 class="mt-2 text-2xl">©&nbsp;2022</h5>
       </div>
       <div class="footer-col-3">
         <strong>
